@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toturial JavaScript</title>
+    <link rel="stylesheet" href="css/stylejs.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <!-- start sitting box -->
+        <div class="sitting-box">
+            <div class="iconestyle">
+                <i class="fa-solid fa-gear stylejs"></i>
+            </div>
+            <div class="options-boxs">
+
+            <div class="option-box1">
+                    <h3>Dark Mode</h3>
+                    <div class="option-darkmode">
+                        <span class="active yes" data-darklight="yes">Yes</span>
+                        <span class="no" data-darklight="no">No</span>
+                    </div>
+                </div>
+
+
+                <div class="option-box1">
+                    <h3>Colors</h3>
+                    <div class="options-colors">
+    
+                        <span class="active" data-colors="dodgerblue"></span>
+                        <span class="" data-colors="violet"></span>
+                        <span class="" data-colors="orange"></span>
+                        <span class="" data-colors="darkorchid"></span>
+                        <span class="" data-colors="#82ccdd"></span>
+    
+                    </div>
+                </div>
+
+                
+                <div class="option-box1">
+                    <h3>BackGround Rand</h3>
+                    <div class="option-yesnoback">
+                        <span class="active yes" data-backgroundoptionrand="yes">Yes</span>
+                        <span class="no" data-backgroundoptionrand="no">No</span>
+                    </div>
+                </div>
+
+
+                <div class="option-box1">
+                    <h2>Show Bullet</h2>
+                    <div class="option-bullet">
+                        <span class="active yes" data-hideshowbullet="yes">Yes</span>
+                        <span class="no" data-hideshowbullet="no">No</span>
+                    </div>
+                </div>
+                
+                <button class="reset-option">Reset Options</button>
+    
+            </div>
+        </div>
+    <!-- end sitting box -->
+
+    <!-- start bullet menu -->
+    <div class="nav-bullets">
+        <div  class="bullets" data-gosections=".landing">
+            <div class="tool-bull">
+                Home
+            </div>
+        </div>
+        <div class="bullets" data-gosections=".about">
+            <div class="tool-bull">
+                About
+            </div>
+        </div>
+        <div class="bullets" data-gosections=".skills-sections">
+            <div class="tool-bull">
+                Skills
+            </div>
+        </div>
+        <div class="bullets" data-gosections=".gallary">
+            <div class="tool-bull">
+                Gallary
+            </div>
+        </div>
+        <div class="bullets" data-gosections=".time-lign">
+            <div class="tool-bull">
+                Time-Line
+            </div>
+        </div>
+        
+        <div class="bullets" data-gosections=".ourFeatuers">
+            <div class="tool-bull">
+                Featuers
+            </div>
+        </div>
+
+        <div class="bullets" data-gosections=".testemonials">
+            <div class="tool-bull">
+                Testemonials
+            </div>
+        </div>
+        <div class="bullets" data-gosections=".contact">
+            <div class="tool-bull">
+                Contact
+            </div>
+        </div>
+
+    </div>
+    <!-- end bullet menu -->
+
+    <!-- start landing page -->
+    <div class="landing" style="background-image: url('image/newimage/city-6220689.jpg');">
+        <div class="ovar-lay"></div>
+        <div class="container-css">
+            <div class="header-area">
+                <div class="logo">Special <span class="">Design</span> </div>
+                <div class="links-container">
+                    <ul class="ulmenuheader">
+                        <li><a class="active" data-gosections=".landing" href="">Home</a></li>
+                        <li><a href="" data-gosections=".about">About</a></li>
+                        <li><a href="" data-gosections=".skills-sections">Skills</a></li>
+                        <li><a href="" data-gosections=".gallary">Gallary</a></li>
+                        <li><a href="" data-gosections=".time-lign">Featuers</a></li>
+                        <li><a href="" data-gosections=".testemonials">Tistemonial</a></li>
+                        <li><a href="" data-gosections=".contact">Contact us</a></li>
+                    </ul>
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="information-text">
+            <h1>We Are Creat Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Obcaecati tempora 
+                voluptatibus libero quas rerum mollitia
+                sequi totam, beatae hic quis fugiat 
+                corrupti unde ad voluptate odio. Autem 
+                deserunt in quasi.
+            </p>
+        </div>
+    </div>
+    <!-- End landing page -->
+
+    <!-- Start About -->
+    <div class="about">
+        <div class="container-css">
+            <div class="info-about">
+                <div class="info-box-about">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. At ullam a eos provident quibusdam 
+                        quam animi sint, nulla nobis ab possimus doloribus 
+                        cumque, fugiat distinctio, itaque optio eum. Vel, 
+                        saepe.
+                    </p>
+                </div>
+                <div class="image-box">
+                    <img src="about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- start skills -->
+    <div class="skills-sections">
+        <div class="container-css">
+            <h2>Skills</h2>
+                <div class="skills">
+
+                    <div class="skill">
+                        <h3>Html</h3>
+                        <div class="the-progreces">
+                            <span style="width:90%;" data-widthskills="99%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h3>Css</h3>
+                        <div class="the-progreces">
+                            <span style="width:55%;" data-widthskills="55%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h3>JavaScript</h3>
+                        <div class="the-progreces">
+                            <span data-widthskills="40%" style="width:40%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h3>BootStrap</h3>
+                        <div class="the-progreces">
+                            <span  data-widthskills="70% " style="width:70%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h3>PHP</h3>
+                        <div class="the-progreces">
+                            <span  data-widthskills="85%" style="width:85%;"></span>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    <!-- end skills -->
+    <!-- START GALLARY -->
+        <div class="gallary">
+            <div class="container-css">
+                <h2>Our-Gallary</h2>
+                <div class="our-image">
+                    <img src="image/backin/3.jpg" alt="image 1">
+                    <img src="image/backin/3.jpg" alt="image 2">
+                    <img src="image/backin/3.jpg" alt="image 3">
+                    <img src="image/backin/3.jpg" alt="image 4">
+                    <img src="image/backin/3.jpg" alt="image 5">
+                    <img src="image/backin/3.jpg" alt="image 6">
+                    <img src="image/backin/3.jpg" alt="image 7">
+                    <img src="image/backin/3.jpg" alt="image 8">
+                    <img src="image/backin/3.jpg" alt="image 9">
+                    <img src="image/backin/3.jpg" alt="image 10">
+                </div>
+            </div>
+        </div>
+    <!-- END GALLARY -->
+
+    <!-- start time lign -->
+    <div class="time-lign">
+        <div class="container-css">
+            <div class="time-lign-content">
+
+                <div class="year">2018</div>
+                
+                <div class="left">
+                    <div class="content">
+                        <h4>Test Box</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Maiores quibusdam fugit, totam 
+                            deserunt molestias repellat aliquam! Quibusdam, 
+                            dolorum. Error officia adipisci aperiam itaque ea 
+                            laborum asperiores dolor. Saepe, eveniet nemo!
+                        </p>    
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h4>Test Box</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Maiores quibusdam fugit, totam 
+                            deserunt molestias repellat aliquam! Quibusdam, 
+                            dolorum. Error officia adipisci aperiam itaque ea 
+                            laborum asperiores dolor. Saepe, eveniet nemo!
+                        </p>    
+                    </div>
+                </div>
+                
+                <div class="clearFix"></div>
+
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h4>Test Box</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Maiores quibusdam fugit, totam 
+                            deserunt molestias repellat aliquam! Quibusdam, 
+                            dolorum. Error officia adipisci aperiam itaque ea 
+                            laborum asperiores dolor. Saepe, eveniet nemo!
+                        </p>    
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h4>Test Box</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Maiores quibusdam fugit, totam 
+                            deserunt molestias repellat aliquam! Quibusdam, 
+                            dolorum. Error officia adipisci aperiam itaque ea 
+                            laborum asperiores dolor. Saepe, eveniet nemo!
+                        </p>    
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h4>Test Box</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Maiores quibusdam fugit, totam 
+                            deserunt molestias repellat aliquam! Quibusdam, 
+                            dolorum. Error officia adipisci aperiam itaque ea 
+                            laborum asperiores dolor. Saepe, eveniet nemo!
+                        </p>    
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h4>Test Box</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Maiores quibusdam fugit, totam 
+                            deserunt molestias repellat aliquam! Quibusdam, 
+                            dolorum. Error officia adipisci aperiam itaque ea 
+                            laborum asperiores dolor. Saepe, eveniet nemo!
+                        </p>    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end time lign -->
+
+    <!-- start featurs -->
+    <div class="ourFeatuers">
+        <h2>Our Featuers</h2>
+        <div class="container-css">
+            <div class="feats-box">
+
+                <div class="feat-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Developer</h4>
+                    <p>We Make Your WebSite Is Very Vaster</p>
+                </div>
+    
+                <div class="feat-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Developer</h4>
+                    <p>We Make Your WebSite Is Very Vaster</p>
+                </div>
+    
+                <div class="feat-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Developer</h4>
+                    <p>We Make Your WebSite Is Very Vaster</p>
+                </div>
+    
+                <div class="feat-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Developer</h4>
+                    <p>We Make Your WebSite Is Very Vaster</p>
+                </div>
+    
+    
+                <div class="feat-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Developer</h4>
+                    <p>We Make Your WebSite Is Very Vaster</p>
+                </div>
+    
+                <div class="feat-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Developer</h4>
+                    <p>We Make Your WebSite Is Very Vaster</p>
+                </div>
+    
+            </div>
+            <div class="clearFix"></div>
+            
+        </div>
+    </div>
+    <!-- end featurs -->
+
+    <!-- start testemonials -->
+    <div class="testemonials">
+        <h2>Testemonials</h2>
+        <div class="container-css">
+            <div class="content-testemonial">
+                
+
+                <div class="ts-box">
+                    <img src="image/avatar/3.jpg" alt="">
+                        <h3>Mohamad Yamen</h3>    
+                        <P class="name-compa">CIO Company</P>
+                        <p class="descrep">
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Voluptatum natus corrupti 
+                            eveniet dolores commodi alias quam reprehenderit 
+                            mollitia pariatur, error eius recusandae placeat 
+                            nobis quae illo maxime animi assumenda.
+                        </p>
+                </div>
+
+                <div class="ts-box">
+                    <img src="image/avatar/4.jpg" alt="">
+                        <h3>Mohamad Yamen</h3>
+                        <P class="name-compa">CIO Company</P>
+                        <p class="descrep">
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Voluptatum natus corrupti 
+                            eveniet dolores commodi alias quam reprehenderit 
+                            mollitia pariatur, error eius recusandae placeat 
+                            nobis quae illo maxime animi assumenda.
+                        </p>
+                </div>
+
+                <div class="ts-box">
+                    <img src="image/avatar/5.jpg" alt="">
+                        <h3>Mohamad Yamen</h3>
+                        <P class="name-compa">CIO Company</P>
+                        <p class="descrep">
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Voluptatum natus corrupti 
+                            eveniet dolores commodi alias quam reprehenderit 
+                            mollitia pariatur, error eius recusandae placeat 
+                            nobis quae illo maxime animi assumenda.
+                        </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end testemonials -->
+
+    <!-- start contact us -->
+    <style>
+
+        .sendmsgsuccess{
+            color: greenyellow;
+            width: 50%;
+            margin: 10px auto;
+            color: white;
+            text-align: center;
+            padding: 7px;
+            font-size: 14px;
+            border-radius: 5px;
+            display: block;
+        }
+        .textError{
+        background-color: #fc3232;
+        width: 50%;
+        margin: 10px auto;
+        color: white;
+        text-align: center;
+        padding: 7px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+        .sendmsgeroor {
+            color:red;
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+    <div class="contact">
+        <div class="ovar-lay"></div>
+        <div class="container-css">
+            <h2>Cntact Us</h2>
+
+            <div class="contactus-content">
+            <?php 
+                if (isset($_POST["senmassgbut"])){
+                    $username = $_POST["username"];
+                    $userphone = $_POST["phone"];
+                    $useremail = $_POST["email"];
+                    $usersubject = $_POST["subject"];
+                    $usertextarea = $_POST["Massage"];
+                    $formerror = array();
+                    if(empty($username)){
+                        $formerror[] = "User Cant Be Empty";
+                    }
+                    if(empty($userphone)){
+                        $formerror[] = "Number Cant Be Empty";
+                    }
+                    if(empty($useremail)){
+                        $formerror[] = "Email Cant Be Empty";
+                    }
+                    if(empty($usersubject)){
+                        $formerror[] = "Subject Cant Be Empty";
+                    }
+                    if(empty($usertextarea)){
+                        $formerror[] = "Msg Cant Be Empty";
+                    }
+
+                    if(empty($formerror)){
+                        require "mail.php";
+                        $mail->FromName = ( $username );
+                        $mail->Subject = ($usersubject);
+                        $mail->Body = "The Msg ".$usertextarea."  <br>  Email Customers : ".$useremail."  <br> NumberPhoner Customers ".$userphone." ";
+                        if($mail->send()){
+                            echo "<div class='sendmsgsuccess'>Send Successfully</div>";
+                        }else {
+                            echo "<div class='textError'>There Is Error Pleas Try Agine Later</div>";
+                        }
+                    }else {
+                        foreach ($formerror as $Error) {
+                            echo '
+                            <div class="textError">
+                                '.$Error.'
+                            </div>
+                            ';
+                        }
+                    }
+                }else {
+                    // if not found Button but Code Here
+                }
+            ?>
+
+                <form method="post" action="index.php" class="form-contact" >
+                    
+                    <div class="left">
+                        <div class="formersucc">
+                            <input type="text" name="username" maxlength="30"  placeholder="Your Name" id="UserName" onclick="validatename()">
+                            <span id="name-error"></span>
+                        </div>
+                        <div class="formersucc">
+                            <input type="text" name="phone"   placeholder="Your Phone" id="NumberPhone" onkeyup="validatephone()">
+                            <span id="phone-error"></span>
+                        </div>
+                        <div class="formersucc">
+                            <input type="email" name="email"  placeholder="Your E-mail" id="EmailUser" onkeyup="validateemail()">
+                            <span id="email-error"></span>
+                        </div>
+                        <div class="formersucc">
+                            <input type="text" name="subject"  placeholder="Your Subject" id="SubjectUasr">
+                            <span id="subject-error"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <div class="formersucc">
+                            <textarea name="Massage"  placeholder="Your Massage" id="TextAreaUser" onkeyup="validatemsg()" ></textarea>
+                            <span id="msg-error"></span>
+                        </div>
+                        <div class="formersucc">
+                            <input  type="submit" value="Send" class="buttonsubjs" name="senmassgbut">
+                            <span class="Btn-error"></span>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end contact us -->
+    <div class="footer">
+        <div class="container-css">
+            <div class="style-footer">
+                <span>Copy-Right  &copy;
+                    <?php 
+                        function GetCopyRight($year = "auto"){
+                            if($year === "auto"){
+                                echo date("Y") ;
+                            }else if ($year === intval(date("Y"))){
+                                echo $year;
+                            }else if ($year > intval(date("Y"))){
+                                echo $year . "     " . date("Y");
+                            }else if($year < intval(date("Y"))){ 
+                                echo date('Y') . "      " . $year;
+                            }
+                        }
+                        GetCopyRight(2024);
+                    ?>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script src="js/try.js"></script>
+</body>
+</html>

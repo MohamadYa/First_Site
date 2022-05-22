@@ -42,10 +42,14 @@ const DisabledDarkMode = () =>  {
     localStorage.setItem("Options-Local-Mods" , null);
 }
 
-if(LocalModsDark === "enabled"){
+if(LocalModsDark  === "enabled"){
     EnabledDarkMode();
-    document.querySelector(".option-darkmode .no").classList.remove("active");
     document.querySelector(".option-darkmode .yes").classList.add("active");
+    document.querySelector(".option-darkmode .no").classList.remove("active");
+}else {
+    DisabledDarkMode();
+    document.querySelector(".option-darkmode .yes").classList.remove("active");
+    document.querySelector(".option-darkmode .no").classList.add("active");
 }
 
 
@@ -128,11 +132,16 @@ function PlayBackGround(){
         SetIntrevalBackRand = setInterval(() =>{
             let RandMath = Math.floor(Math.random() * ImageAraay.length);
             landing.style.backgroundImage = "url('image/"+ImageAraay[RandMath]+" ')";
-        },1000);
+        },3000);
     }
 }
 if(LocalBackGround !== null){
     PlayBackGround();
+    document.querySelector(".option-yesnoback .no").classList.remove("active");
+    document.querySelector(".option-yesnoback .yes").classList.add("active");
+}else {
+    document.querySelector(".option-yesnoback .no").classList.add("active");
+    document.querySelector(".option-yesnoback .yes").classList.remove("active");
 }
 const AllspanBack = document.querySelectorAll(".option-yesnoback span") ;
 AllspanBack.forEach(spanBack => {

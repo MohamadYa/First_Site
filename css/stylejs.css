@@ -77,11 +77,12 @@ body.BodyDarkMode{
     padding: 10px;
     width: 100%;
 }
-.sitting-box .options-boxs .option-box1 .option-yesnoback > span {
+.sitting-box .options-boxs .option-box1 .option-yesnoback > span.yes,
+.sitting-box .options-boxs .option-box1 .option-yesnoback > span.no{
     display: inline-block;
     margin: 0px 5px;
     padding: 5px 11px;
-    background-color: #050a34;
+    background-color: blue;
     color: white;
     border-radius: 5px;
     font-size: 15px;
@@ -90,15 +91,7 @@ body.BodyDarkMode{
 }
 .sitting-box .options-boxs .option-box1 .option-yesnoback > span.yes.active,
 .sitting-box .options-boxs .option-box1 .option-yesnoback > span.no.active{
-    display: inline-block;
-    margin: 0px 5px;
-    padding: 5px 11px;
-    background-color: #050a34;
-    color: white;
-    border-radius: 5px;
-    font-size: 15px;
-    cursor: pointer;
-    opacity: 0.5;
+    opacity: 1;
 }
 /*  */
 .option-darkmode span.yes,
@@ -397,8 +390,8 @@ body.BodyDarkMode{
         display: none;
     }
     .landing .header-area .links-container > ul.openmenulinks {
-        background-color: white;
-        background-color: rgba(0 0 0 / 50%);
+        background-color: rgb(63, 59, 59);
+        /* background-color: rgba(0 0 0 / 50%); */
         display: block;
         width: 100%;
         position: absolute;
@@ -412,12 +405,15 @@ body.BodyDarkMode{
     .landing .header-area .links-container > ul.openmenulinks > li{
         margin: 3px 20px;
     }
+    .landing .header-area .links-container > ul.openmenulinks > li > a{
+        color: red;
+    }
     .landing .header-area .links-container > ul.openmenulinks::before{
         content: "";
         position: absolute;
         border-width: 9px;
         border-style: solid;
-        border-color: transparent transparent rgba(0 0 0 / 70%) transparent;
+        border-color: transparent transparent rgb(63, 59, 59) transparent;
         right: 7px;
         top: -18px;
         
